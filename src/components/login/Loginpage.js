@@ -7,9 +7,7 @@ import "./styles/loginPage.css";
 function Loginpage() {
     const [button, setButton] = useState("0");
     return (
-        <div style={{
-            backgroundImage: "images/VcmXH68Dv_k.jpg",
-        }}>
+        <div className={"parent"}>
             <SignChooserButton setButton={setButton}/>
             {button === "0" ? <LoginForm/> : <RegistrationForm/>}
         </div>

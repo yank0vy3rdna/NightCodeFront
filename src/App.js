@@ -4,7 +4,7 @@ import Mainpage from "./components/main/Mainpage";
 function App() {
     return (
         <div>
-            <Mainpage/>
+           <Loginpage/>
         </div>
     );
 }

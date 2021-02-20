@@ -1,7 +1,7 @@
 import "./styles/SignChooserButton.css"
 
 function SignChooserButton(props) {
-    return (<div style={{height:"50px"}}>
+    return (<div style={{height:"50px"}} className={"chooserButtons"}>
             <div id={"signInButton"}>
                 <label className="container" >Sign In
                     <input type="radio" name={"radiobutton"} checked="checked" onChange={(e) => props.setButton("0")}/>
