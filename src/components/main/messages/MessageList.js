@@ -2,7 +2,7 @@ import React from "react";
 
 function MessageList(props) {
     return (
-        <ul className="message-list">
+        <ul className="messageList">
             {props.messages.map(message => {
                 return (
                     <li key={message.id}>

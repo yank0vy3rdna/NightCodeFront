@@ -1,13 +1,13 @@
 import React from "react";
-import MessageList from "./messages/MessageList";
 import MessageWindow from "./MessageWindow";
 import LogoutButton from "./LogoutButton";
-
-
+import Search from "./Search";
+import "./styles/main.css";
 
 function Mainpage() {
     return (
         <div>
+            <Search/>
             <MessageWindow/>
             <LogoutButton/>
         </div>
