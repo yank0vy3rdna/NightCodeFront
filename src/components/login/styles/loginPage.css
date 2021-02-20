@@ -1,5 +1,5 @@
 body{
-    background-color: #ffe8d1;
+    background-color: #BBC2E2;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -19,4 +19,24 @@ body{
     align-items: center;
     justify-content: center;
     overflow: auto;
+    font-family: "Courier New", monospace;
+}
+.chooserButtons{
+    margin-right: 100px;
+    font-weight: bold;
+}
+.button{
+    color: black;
+    font-size: 100%;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 1% 2%;
+    margin: 2%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button:hover {
+    background: #847979;
 }

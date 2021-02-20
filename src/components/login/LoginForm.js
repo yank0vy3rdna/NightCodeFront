@@ -23,10 +23,8 @@ function LoginForm() {
     const [password, setPassword] = useState("");
     return (<div className="login_form">
             <form style={{
-                fontFamily: "monospace",
-                fontWeight: "bolder",
                 fontSize: "170%",
-                color: "#1e154a",
+                fontWeight: "bold"
             }}>
                 <div className="log-field">
                     <label>E-mail </label>

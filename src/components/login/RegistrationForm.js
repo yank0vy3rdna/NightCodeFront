@@ -32,10 +32,8 @@ function RegistrationForm() {
     const [role, setRole] = useState("STUDENT");
     return (<div className="registration_form">
             <form style={{
-                fontFamily: "monospace",
-                fontWeight: "bolder",
                 fontSize: "170%",
-                color: "#1e154a",
+                fontWeight: "bold"
             }}>
                 <div className="log-field">
                     <label>E-mail </label>

@@ -10,7 +10,7 @@ function SignChooserButton(props) {
             </div>
             <div id={"signUpButton"}>
                 <label className="container" >Sign Up
-                    <input type="radio" name={"radiobutton"} onChange={(e) => props.setButton("1")}/>
+                    <input type="radio" name={"radiobutton"} onClick={(e) => props.setButton("1")}/>
                     <span className="checkmark"/>
                 </label>
             </div>

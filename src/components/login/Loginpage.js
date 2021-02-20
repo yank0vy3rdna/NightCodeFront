@@ -8,8 +8,12 @@ function Loginpage() {
     const [button, setButton] = useState("0");
     return (
         <div className={"parent"}>
-            <SignChooserButton setButton={setButton}/>
-            {button === "0" ? <LoginForm/> : <RegistrationForm/>}
+            <div >
+                <SignChooserButton setButton={setButton}/>
+            </div>
+            <div >
+                {button === "0" ? <LoginForm/> : <RegistrationForm/>}
+            </div>
         </div>
     )
 }
